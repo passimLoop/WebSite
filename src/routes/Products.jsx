@@ -1,10 +1,15 @@
 import React from "react";
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 
-export const Products = () => {
+const Products = () => {
     return (
         <div>
-            <h1>Products</h1>
+            <NavBar />
+            <Footer />
         </div> 
     )
     
 }
+
+export default Products
