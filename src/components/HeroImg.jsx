@@ -15,8 +15,8 @@ const HeroImg = () => {
             <p>Empresa de Desarrollo Web</p>
             <h1>Passim Loop</h1>
             <div>
-                <Link to="/project" className="btn">Proyectos</Link>
-                <Link to="/project" className="btn btn-light">Contacto</Link>
+                <Link to="/products" className="btn">Proyectos</Link>
+                <Link to="/contact" className="btn btn-light">Contacto</Link>
             </div>
         </div>
     </div>

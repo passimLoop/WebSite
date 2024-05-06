@@ -22,14 +22,15 @@ ul {
 
 .btn {     /* Ver si esa forma de los botones va bien, o cambiarla */
 	padding: 12px 32px;
-	font-size: 1rem;
+	font-size: 1.1rem;
 	text-transform: uppercase;
 	background-color: transparent;
 	color: #f4d58d;
 	border: 1px solid #8d0801;
 	border-top-right-radius: 30px;
 	border-bottom-left-radius: 30px;
-	font-weight: 600;
+	font-weight: 700;
+	transition: 0.7s;
 }
 
 .btn-light {
@@ -38,7 +39,7 @@ ul {
 
 .btn:hover {
     background-color: #8d0801;
-    transition: 0.3s;
+    transition: 0.7s;
 }
 
 @media screen and (max-width: 600px) {
@@ -53,5 +54,6 @@ ul {
 		border-top-right-radius: 30px;
 		border-bottom-left-radius: 30px;
 		font-weight: 600;
+		transition: 0.7s;
 	}
 }
